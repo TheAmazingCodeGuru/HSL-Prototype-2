@@ -1,11 +1,17 @@
+/*initialisation*/
+html{
+    height: 100%;
+}
+
 body{
     margin: 0px;
+    height: 100%;
 }
 
 .space-box{
     margin: 0px;
     position: relative;
-    height: 800px;
+    height: 80%;
     background-image: url("scr00002.jpg");
     background-size: cover;
     background-attachment: fixed;
