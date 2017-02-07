@@ -11,10 +11,9 @@ body{
 .space-box{
     margin: 0px;
     height: 80%;
-    position: relative;
-    background: url("scr00002.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
+    background: url(scr00002.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
