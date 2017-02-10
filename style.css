@@ -1,6 +1,11 @@
 /*initialisation*/
 html{
     height: 100%;
+    font-family: sans-serif;
+}
+
+h2{
+    color: #555;
 }
 
 body{
@@ -16,4 +21,39 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+}
+.content{
+    text-align: center;
+}
+
+.content > .hsl > .description{
+    max-width: 650px;
+    margin: auto;
+}
+
+.home > .hsl > .projects{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+    padding: 30px;
+}
+
+.home > .hsl > .projects > img{
+    /* Need to chack if % based sizing is optimal */
+    width: 100px;
+    height: 100px;
+}
+
+.home > .hsl > .projects > p{
+    display: block;
+    text-align: center;
+}
+
+.duchifat{
+    height: 500px;
+    background-color: #333;
+    background-image: url("images/grey.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
