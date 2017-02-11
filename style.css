@@ -39,10 +39,14 @@ body{
     padding: 30px;
 }
 
+
 .home > .hsl > .projects > img{
     /* Need to chack if % based sizing is optimal */
     width: 100px;
     height: 100px;
+    animation-name: sizeback;
+    animation-timing-function: ease;
+    animation-duration: 0.2s;
 }
 
 .home > .hsl > .projects > p{
@@ -56,4 +60,31 @@ body{
     background-image: url("images/grey.jpg");
     background-attachment: fixed;
     background-size: cover;
+}
+
+.home > .hsl > .projects > img:hover{
+    animation-name: size;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    height: 150px;
+    width: 150px;
+}
+
+@keyframes size{
+    0% {height: 100px; width: 100px;}
+    100% {height: 150px; width: 150px;}
+}
+
+@keyframes sizeback{
+    0% {height: 150px; width: 150px;}
+    100% {height: 100px; width: 100px;}
+}
+
+.verticalLine{
+    width: 1px;
+      background-color: silver;
+      height: 100%;
+      float: left;
+      border: 2px ridge silver ;
+      border-radius: 2px;
 }
