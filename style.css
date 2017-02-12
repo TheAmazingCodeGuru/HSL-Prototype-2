@@ -97,3 +97,7 @@ body{
 .duchifat-1 > .content > p{
     margin-bottom: 100px;
 }
+
+.hvr-fade:hover{
+    background-color: #e3e5e5;
+}
