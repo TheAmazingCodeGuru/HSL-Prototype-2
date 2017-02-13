@@ -53,15 +53,8 @@ h2{
     /* Need to chack if % based sizing is optimal */
     width: 100px;
     height: 100px;
-    animation-name: sizeback;
-    animation-timing-function: ease;
-    animation-duration: 0.2s;
 }
 
-.home > .hsl > .projects > p{
-    display: block;
-    text-align: center;
-}
 
 /* == HSL == */
 
@@ -84,7 +77,6 @@ h2{
 }
 
 .button{
-    background-color: rgba(255, 255, 255, 0);
     text-decoration: none;
     color: white;
     border: 2px solid white;
@@ -108,7 +100,8 @@ h2{
 
 
 /* == External Resaurces == */
-.hvr-fade:hover{
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active{
     background-color: #e3e5e5;
 }
+
 /* == External Resaurces == */
