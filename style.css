@@ -20,8 +20,8 @@ h2{
 /* == Header == */
 .space-box{
     margin: 0px;
-    position: relative;
     height: 80%;
+
     background-image: url("scr00002.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -105,3 +105,4 @@ h2{
 }
 
 /* == External Resaurces == */
+  }
